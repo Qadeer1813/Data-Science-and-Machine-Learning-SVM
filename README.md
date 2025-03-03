@@ -9,7 +9,7 @@
 **Support Vector machine (SVM)**
 
 # Project Description
-The purpose of this project is to predict predict handwritten digits from images. 
+The purpose of this project is to predict handwritten digits from images. 
 
 # Data Source
 The dataset that was used for this project can be downloaded from https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits
