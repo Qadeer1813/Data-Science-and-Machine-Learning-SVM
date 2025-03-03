@@ -9,7 +9,7 @@
 **Support Vector machine (SVM)**
 
 # Project Description
-The purpose of this project is to predict 
+The purpose of this project is to predict predict handwritten digits from images. 
 
 # Data Source
 The dataset that was used for this project can be downloaded from https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits
@@ -28,9 +28,11 @@ Class
 - 9:  382
 
 # Processing
-After downloading this dataset, a test print was conducted using the following code ```data.head()```
+After downloading this dataset, a test print was conducted using the following code ```data.head()```. The loaded data is then displayed. A check was done to find missing values in the dataframe using the following code ```missing_values = data.isnull().sum()```, ```total_missing = missing_values.sum()```. This found no missing values in the dataset. There no need to do any encoding on this as labels are numbers. Data was then split into training and testing set 70% training and 30% testing.
 
 # Data Understanding and Visualisation
+After processing the data and fitting it to the SVM model these were the following results.
+
 1. Classfication report
 
    ![image](https://github.com/user-attachments/assets/cdbb2325-abf7-4a08-b304-f50ff03c453e)
@@ -39,13 +41,12 @@ After downloading this dataset, a test print was conducted using the following c
    
    ![image](https://github.com/user-attachments/assets/5b89f0c1-d7c1-4847-9c9b-bc769401fab3)
 
-
 3. Model in use
    
    ![image](https://github.com/user-attachments/assets/6eac3519-e8c4-454a-92d4-925afad22ed3)
 
 # Algorithims:
-
+Support Vector Machine: This is a supervised machine learning algorithm used for both classification and regression. In this project, SVM was used to classify images of handwritten digits.
 
 # Online Sources:
 1. User guide# (2025) User Guide - pandas 2.2.3 documentation. Available at: https://pandas.pydata.org/docs/user_guide/index.html (Accessed: Feb 2025).
