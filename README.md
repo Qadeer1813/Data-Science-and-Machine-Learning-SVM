@@ -46,7 +46,7 @@ After processing the data and fitting it to the SVM model these were the followi
    ![image](https://github.com/user-attachments/assets/6eac3519-e8c4-454a-92d4-925afad22ed3)
 
 # Algorithims:
-Support Vector Machine: 
+Support Vector Machine: This is a supervised machine learning algorithm used for both classification and regression. In this project, SVM was used to classify images of handwritten digits.
 
 # Online Sources:
 1. User guide# (2025) User Guide - pandas 2.2.3 documentation. Available at: https://pandas.pydata.org/docs/user_guide/index.html (Accessed: Feb 2025).
