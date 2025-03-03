@@ -28,6 +28,7 @@ Class
 - 9:  382
 
 # Processing
+After downloading this dataset, a test print was conducted using the following code ```data.head()```
 
 # Data Understanding and Visualisation
 1. Classfication report
